@@ -1,0 +1,45 @@
+.page-reparing{
+  padding: 100px 0;
+  text-align: center;
+  figure{
+    text-align: center;
+  }
+  .comingsoon-text{
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #0056FF 17.05%, #FF005C 67.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 48px 0 15px;
+  }
+  .btn-common{
+    font-size: 18px;
+  }
+  .text{
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+    color: #475467;
+  }
+}
+
+@media all and (max-width: 639px) {
+  figure{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .page-reparing .comingsoon-text{
+    font-size: 30px;
+  }
+  .page-reparing .btn-common{
+    font-size: 14px;
+  }
+}

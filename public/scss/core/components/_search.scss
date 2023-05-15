@@ -1,0 +1,41 @@
+.formSearch{
+
+    .block{
+        position: relative;
+        min-width: 180px;
+
+        input{
+            background-color: $primary-background;
+            border: 0;
+            color: $secondary-text;
+            font-weight: 500;
+            height: 35px;
+            padding: 0 35px 0 15px;
+            width: 100%;
+            @include border-radius(3px);
+
+            &:focus{
+                outline: none;
+                border: 0;
+            }
+        }
+
+        button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 35px;
+            outline: none;
+            border: 0;
+            background: transparent;
+            color: $secondary-text;
+            cursor: pointer;
+            
+
+            i{
+                font-size: 2rem;
+            }
+        }
+    }
+}

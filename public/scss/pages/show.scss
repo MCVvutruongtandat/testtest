@@ -1,0 +1,140 @@
+.mv{
+  text-align: center;
+}
+
+.main-tit{
+  text-align: center;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.list-logo{
+  display: grid;
+  grid-template-columns: repeat(3, calc(33.33% - 21.33px));
+  gap: 32px;
+  li{
+    min-height: 300px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAFB;
+    border: 1px solid #F2F4F7;
+    border-radius: 40px;
+  }
+}
+
+.btn-gradient{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 17px 57px;
+  margin-top: 32px;
+}
+
+
+.section1{
+  .main-tit-bg{
+    background: url("../../../images/show/ss1-bg.png") no-repeat center center;
+  }
+  .main-tit{
+    padding: 116px 0;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.section2{
+  padding: 275px 0;
+  margin-top: 114px;
+  background-size: cover;
+  position: relative;
+  &::before{
+    position: absolute;
+    content: "";
+    background: url("../../../images/show/ss2-bg.png") no-repeat center top;
+    width: 1642px;
+    height: 1017px;
+    bottom: -280px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+  }
+  .container{
+    max-width: 1040px;
+  }
+  .btn-gradient{
+    background: linear-gradient(90deg,#0056FF 46.05%,#FF005C 111.48%);
+  }
+  .container{
+    max-width: 724px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .section2::before{
+    width: 100%;
+    background-size: 110%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .list-logo {
+    grid-template-columns: repeat(3,calc(33.33% - 13.33px));
+    gap: 20px;
+  }
+  .list-logo li figure{
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .list-logo li{
+    min-height: auto;
+    padding: 30px 0;
+    border-radius: 20px;
+  }
+  .btn-gradient{
+    font-size: 20px;
+  }
+  .section2::before{
+    background: url("../../../images/show/ss2-bg-sp.jpg") no-repeat center top;
+    background-size: 100%;
+    bottom: auto;
+    top: -50px;
+  }
+  .section2{
+    padding: 52px 0;
+  }
+  .section1 .main-tit-bg{
+    background-size: 600px;
+  }
+}
+
+@media all and (max-width: 639px) {
+  .section1 .main-tit {
+    padding: 35px 0;
+  }
+  .list-logo {
+    grid-template-columns: repeat(2,calc(50% - 5px));
+    gap: 10px;
+  }
+  .section2 {
+    margin-top: 35px;
+    background-size: 200%;
+  }
+  .btn-gradient {
+    padding: 10px 57px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .section2::before{
+    top: 0;
+  }
+  .section1 .main-tit-bg{
+    background-size: 80%;
+  }
+}
+
+

@@ -1,0 +1,167 @@
+{
+    "partner": [
+        {
+          "name": "Nina Daily",
+          "followers": "13.1K",
+          "description": "Nina Daily shares about her daily life diary such as travel, food, skin care.",
+          "avatar":"/images/about/nina_daily.png",
+          "icon": "/images/about/nina_daily.png",
+          "link": "https://www.youtube.com/channel/UCWX-K8eXZo1KJiNcUiJ48jA",
+          "type": "youtube"
+        },
+        {
+          "name": "Go and Taste",
+          "followers": "4.07K",
+          "description": "Go and Taste, which updates experiences from foreigners' trips about typical street food in Vietnam.",
+          "avatar":"/images/about/go_n_taste.png",
+          "icon": "/images/about/go_n_taste.png",
+          "link": "https://www.youtube.com/c/GoandTaste",
+          "type": "youtube"
+        },
+        {
+          "name": "Amazing Paiting",
+          "followers": "1.06K",
+          "description": "Amazing Painting update cultural, sports and entertainment content for the Vietnamese community around the world, especially the Vietnamese in the Global Citizen generation.",
+          "avatar":"/images/about/amz_painting.png",
+          "icon": "/images/about/amz_painting.png",
+          "link": "https://www.youtube.com/channel/UCArgsmd70p6vsg6xOa38obg",
+          "type": "youtube"
+        },
+        {
+          "name": "Color Art",
+          "followers": "1.06K",
+          "description": "Color Art offers unique paintings with exceptionally easy ways of drawing. Thank for Color Art, anyone who loves art but doesn't have whorl, they can still create the best pictures.",
+          "avatar":"/images/about/color_art.png",
+          "icon": "/images/about/color_art.png",
+          "link": "https://www.youtube.com/channel/UC8SYWyj910QuQf8qkoJyvQQ",
+          "type": "youtube"
+        },
+        {
+          "name": "Vytamiin's House",
+          "followers": "3.92K",
+          "description": "Vytamiin's House shares stories of Vy's daily life.",
+          "avatar":"/images/about/vitamin_house.png",
+          "icon": "/images/about/vitamin_house.png",
+          "link": "https://www.youtube.com/channel/UCcP2zijlbKs-s1sNeO9AfJQ",
+          "type": "youtube"
+        },
+        {
+          "name": "Delicious Day",
+          "followers": "1.27K",
+          "description": "Delicious Day share daily images of bustling Saigon, explores the most beautiful places in this city.",
+          "avatar":"/images/about/delisous_day.png",
+          "icon": "/images/about/delisous_day.png",
+          "link": "https://www.youtube.com/channel/UCZTextyJI1h1XKR16G9blRA",
+          "type": "youtube"
+        },
+        {
+          "name": "Xin Chào TV",
+          "followers": "135.377",
+          "description": "Xin chào TV - an page that updates news about the scenery and life of Vietnamese people in America.",
+          "avatar":"/images/about/xin_chao.png",
+          "icon": "/images/about/xin_chao.png",
+          "link": "https://www.facebook.com/MCV.xinchaoTVV",
+          "type": "facebook"
+        },
+        {
+          "name": "Go n Chill",
+          "followers": "37.020",
+          "description": "Go n Chill shares beautiful and peaceful scenes in America",
+          "avatar":"/images/about/go_n_chill.png",
+          "icon": "/images/about/go_n_chill.png",
+          "link": "https://www.facebook.com/Go-n-Chill-104497068918939",
+          "type": "facebook"
+        },
+        {
+          "name": "Artholic",
+          "followers": "26.000",
+          "description": "Artholic shares about art in life such as architecture, painting, sculpture, graphics, decoration",
+          "avatar":"/images/about/artholic.png",
+          "icon": "/images/about/artholic.png",
+          "link": "https://www.facebook.com/profile.php?id=100083326053446",
+          "type": "facebook"
+        },
+        {
+          "name": "MC Việt Thảo",
+          "followers": "951K",
+          "description": "MC Viet Thao - An page that aggregates a lot of interesting content such as: reportage, documentary, cuisine and side stories in the US!",
+          "avatar":"/images/about/viet_thao.png",
+          "icon": "/images/about/viet_thao.png",
+          "link": "https://www.facebook.com/mcvietthaoUSA",
+          "type": "facebook"
+        },
+        {
+          "name": "Look n Cook",
+          "followers": "40.287",
+          "description": "Look n Cook shares delicious, mouth-watering recipes for a cozy family meal.",
+          "avatar":"/images/about/look_n_cook.png",
+          "icon": "/images/about/look_n_cook.png",
+          "link": "https://www.facebook.com/Look-n-Cook-112214051464791",
+          "type": "facebook"
+        },
+        {
+          "name": "Voice Of Texas",
+          "followers": "131.612",
+          "description": "Voice of Texas shares about life and people in USA",
+          "avatar":"/images/about/texas.png",
+          "icon": "/images/about/texas.png",
+          "link": "https://www.facebook.com/Voice-Of-Texas-108882075109059/",
+          "type": "facebook"
+        },
+        {
+          "name": "Michael Hoà TV",
+          "followers": "860 N",
+          "description": "Michael Hoa TV shares his culinary experiences throughout the country.",
+          "avatar":"/images/about/mc_hoa.png",
+          "icon": "/images/about/mc_hoa.png",
+          "link": "https://www.tiktok.com/@michaelhoatv?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        },
+        {
+          "name": "Voice of Texas",
+          "followers": "256",
+          "description": "Voice of Texas shares about life and people in USA",
+          "avatar":"/images/about/texas.png",
+          "icon": "/images/about/texas.png",
+          "link": "https://www.tiktok.com/@voiceoftexas?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        },
+        {
+          "name": "Viet Network",
+          "followers": "368",
+          "description": "Viet Network share all stories about showbiz, TV shows, etc... serving Vietnamese people living around the world.",
+          "avatar":"/images/about/viet_net.png",
+          "icon": "/images/about/viet_net.png",
+          "link": "https://www.tiktok.com/@viet_network?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        },
+        {
+          "name": "Cuộc sống Mỹ",
+          "followers": "107.7K",
+          "description": "'Cuộc sống Mỹ' shares about life and Vietnamese people in USA",
+          "avatar":"/images/about/cuoc_song_my.png",
+          "icon": "/images/about/cuoc_song_my.png",
+          "link": "https://www.tiktok.com/@cuocsongmy.mcv?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        },
+        {
+          "name": "MC  Việt Thảo",
+          "followers": "89.5K",
+          "description": "MC Viet Thao channel aggregates a lot of interesting content such as: reportage, documentary, cuisine and side stories in the US!",
+          "avatar":"/images/about/partner_main.png",
+          "icon": "/images/about/partner_mini.png",
+          "link": "https://www.tiktok.com/@mcvietthao5?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        },
+        {
+          "name": "Go and Chill",
+          "followers": "28.4K",
+          "description": "Go and Chill shares special stories about Vietnamese life and people",
+          "avatar":"/images/about/go_n_chill.png",
+          "icon": "/images/about/go_n_chill.png",
+          "link": "https://www.tiktok.com/@goandchill.mcv?is_from_webapp=1&sender_device=pc",
+          "type": "tiktok"
+        }
+    ]
+  }
+  

@@ -1,0 +1,76 @@
+@import 
+	'../../core/abstracts/variables';
+	
+#AdminHeader{
+	
+	#headerWrapper{
+		padding-left: $adAside-width;
+		background-color: getColor(primary-background);
+		height: $adAsideBrand-height;
+		box-shadow: 0 0 15px rgba(0,0,0,.15);
+		@include transition(all 0.2s linear);
+
+		div[class^="MuiToolbar-root"]{
+			min-height: $adAsideBrand-height;
+		}
+
+		h2{
+			color: $breadcrumb-active-color;
+			font-weight: bold;
+			font-size: 18px;
+
+			span{
+				position: relative;
+				margin-left: 10px;
+				padding-left: 10px;
+				// font-size: 1.3rem;
+				color: getColor(third-text);
+				font-weight: 500;
+				border-left: 1px solid getColor(third-text);
+				top: -2px;
+			}
+		}
+	}
+
+	//start bbreadcrumbs
+	[class*="MuiStack-root"]{
+		font-size: $font-size-fullPage;
+
+		[class*="MuiBreadcrumbs-ol"]{
+
+			[class*="MuiBreadcrumbs-li"]{
+				font-size: $font-size-fullPage;
+
+				a{
+			        color: $breadcrumb-active-color;
+			        font-weight: $breadcrumb-link-fontWeight;
+
+			        &:hover{
+			            color: $primary;
+			        }
+
+			        i{
+			            font-weight: $breadcrumb-link-fontWeight;
+			        }
+			    }
+
+			    p{
+			    	font-size: $font-size-fullPage;
+			    	color: $breadcrumb-active-color;
+        			@include opacity(.5);
+        			font-weight: 500;
+			    }
+			}
+
+			svg{
+		    	color: $breadcrumb-active-color;
+		    }
+		}
+	}
+	
+	//end bbreadcrumbs
+}
+
+.asideMiniminze #AdminHeader #headerWrapper{
+	padding-left: $adAside-width-minimize;
+}

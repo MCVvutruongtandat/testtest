@@ -1,0 +1,15 @@
+
+.MuiPaginationItem-root{
+	color: $primary-text !important;
+	font-size: $font-size-fullPage !important;
+
+    &:hover{
+        background-color: $primary;
+        color: #fff;
+    }
+
+    &.Mui-selected{
+        background-color: $primary !important;
+        color: #fff !important;
+    }
+}
